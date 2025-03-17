@@ -12,7 +12,7 @@ FOREX_API_KEY = "fa835023173c9c0014e17ba9"
 FOREX_API_URL = f"https://v6.exchangerate-api.com/v6/{FOREX_API_KEY}/latest/"
 
 # ✅ OpenRouter API Key (FREE GPT-4)
-OPENROUTER_API_KEY ="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"  # Replace with your actual OpenRouter API key
+OPENROUTER_API_KEY ="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"  # Replace with your actual OpenRouter API key
 
 # ✅ Supported Trading Assets (Spot & Futures)
 CRYPTO_ASSETS = {"1": "BTCUSDT", "2": "ETHUSDT", "3": "BNBUSDT", "4": "XRPUSDT", "5": "SOLUSDT", "6": "XUSDT", "7": "LLMUSDT", "8": "MUBARAKUSDT", "9": "JELLYJELLYUSDT"}
