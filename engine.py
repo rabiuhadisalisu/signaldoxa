@@ -15,7 +15,7 @@ FOREX_API_URL = f"https://v6.exchangerate-api.com/v6/{FOREX_API_KEY}/latest/"
 OPENROUTER_API_KEY = "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"  # Replace with your actual OpenRouter API key
 
 # ✅ Supported Trading Assets (Spot & Futures)
-CRYPTO_ASSETS = {"1": "BTCUSDT", "2": "ETHUSDT", "3": "BNBUSDT", "4": "XRPUSDT"}
+CRYPTO_ASSETS = {"1": "BTCUSDT", "2": "ETHUSDT", "3": "BNBUSDT", "4": "XRPUSDT", "9": "SOLUSDT"}
 FOREX_ASSETS = {"5": "USDJPY", "6": "EURUSD", "7": "GBPUSD", "8": "AUDUSD"}
 
 # ✅ Fetch Crypto Market Data (Supports Spot & Futures)
