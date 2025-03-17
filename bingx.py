@@ -8,9 +8,7 @@ BINGX_BASE_URL = "https://api.bingx.com/api/v1/market"
 BINGX_GAINERS_URL = "https://api.bingx.com/api/v1/market/tickers"
 
 # ✅ AI API Key (Replace with your actual API key)
-AI_API_KEY = "sk-or-v1-d599be3197309fb
-5824bd6db21fa9bfb6460e958f3fbc9230a1ff59834a32
-90f"
+AI_API_KEY = "sk-or-v1-d599be3197309fb5824bd6db21fa9bfb6460e9583fbc9230a1ff59834a3290f"
 
 # ✅ Supported Trading Modes
 TRADING_MODES = {"1": "spot", "2": "futures"}
