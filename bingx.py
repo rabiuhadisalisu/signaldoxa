@@ -8,14 +8,14 @@ BINGX_BASE_URL = "https://api.bingx.com/api/v1/market"
 BINGX_GAINERS_URL = "https://api.bingx.com/api/v1/market/tickers"
 
 # ✅ AI API Key (Replace with your actual API key)
-AI_API_KEY = "sk-or-v1-d599be3197309fb5824bd6db21fa9bfb6460e9583fbc9230a1ff59834a3290f"
+AI_API_KEY = "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"
 
 # ✅ Supported Trading Modes
 TRADING_MODES = {"1": "spot", "2": "futures"}
 
 # ✅ Fetch Crypto Market Data from BingX (Spot & Futures)
 def get_crypto_data(symbol="BTC-USDT", interval="1h", limit=50, mode="spot"):
-    url = f"{BINGX_BASE_URL}/kline"
+    url = f"{BINGX_BASE_URL}"
     params = {
         "symbol": symbol,
         "interval": interval,
